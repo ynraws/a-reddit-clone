@@ -3,6 +3,7 @@ pipeline {
     tools {
         jdk 'jdk17'
         nodejs 'node16'
+	go 'go-1.14'
     }
     environment {
 	GO111MODULE='on'
